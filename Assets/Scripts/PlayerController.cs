@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
     public float speed = 10.0f;
-    public float xRange = 10;
+    public float xRange = 20;
 
     // with prefab object, whenever you fire the object it will create a new object
     // if you used the object on the hierarchy window it will only use that object again

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FAE26217-7337-EEE2-B3BD-CF521E202D52}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="32" Column="16" />
+      <File FileName="Assets/Scripts/DestroyOutOfBounds.cs" Line="22" Column="39" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="7" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FeedAnimal" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SpawnManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c7d7e4c4-2d44-479f-a536-e03472b06763" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
