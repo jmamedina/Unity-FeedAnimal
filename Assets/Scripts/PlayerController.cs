@@ -5,8 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
+    public float verticalInput;
     public float speed = 10.0f;
     public float xRange = 20;
+    private float zRangeTop = 4;
+    private float zRangeBottom = 0;
+
+
 
     // with prefab object, whenever you fire the object it will create a new object
     // if you used the object on the hierarchy window it will only use that object again
@@ -35,6 +40,19 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         };
 
+        //top
+        if(transform.position.z > zRangeTop)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRangeTop);
+        }
+
+        //bottom
+        if(transform.position.z < zRangeBottom)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRangeBottom);
+
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //create copy of objects
@@ -43,5 +61,8 @@ public class PlayerController : MonoBehaviour
 
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+
+        verticalInput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
     }
 }

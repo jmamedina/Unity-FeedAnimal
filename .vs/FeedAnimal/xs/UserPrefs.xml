@@ -1,34 +1,16 @@
 ﻿<Properties StartupConfiguration="{FAE26217-7337-EEE2-B3BD-CF521E202D52}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveForward.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpawnManager.cs" Line="35" Column="46" />
-      <File FileName="Assets/Scripts/DetectCollision.cs" Line="13" Column="39" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="32" Column="16" />
-      <File FileName="Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" Line="13" Column="58" />
-      <File FileName="Assets/Scripts/MoveForward.cs" Line="16" Column="18" />
-      <File FileName="Assets/Challenge 2/Scripts/SpawnManagerX.cs" Line="29" Column="44" />
-      <File FileName="Assets/Challenge 2/Scripts/PlayerControllerX.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="49" Column="17" />
+      <File FileName="Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/MoveForward.cs" Line="18" Column="38" />
+      <File FileName="Assets/Scripts/MoveLeft.cs" Line="8" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="FeedAnimal" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Challenge 2" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="SpawnManager.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="89a86de2-8bbf-4f8f-ac70-2d46c48c2439" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="09c302b3-d281-425e-b982-594ceaf426fd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
