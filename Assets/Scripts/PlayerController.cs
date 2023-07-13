@@ -11,8 +11,6 @@ public class PlayerController : MonoBehaviour
     private float zRangeTop = 4;
     private float zRangeBottom = 0;
 
-
-
     // with prefab object, whenever you fire the object it will create a new object
     // if you used the object on the hierarchy window it will only use that object again
     public GameObject projectilePrefab;
