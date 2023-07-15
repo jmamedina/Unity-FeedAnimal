@@ -3563,6 +3563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a383a47cd5945fd8285fa4083bacb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  animalPoint: 2
 --- !u!1 &1310434927742716471
 GameObject:
   m_ObjectHideFlags: 0

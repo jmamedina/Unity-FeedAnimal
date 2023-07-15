@@ -7,15 +7,14 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI livesText;
-    private float score = 0;
-    private float lives = 0;
+    private float score;
+    private float lives;
 
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = "Score :" + score;
-        livesText.text = "Lives :" + lives;
-
+        UpdateScore(0);
+        UpdateLives(3);
     }
 
     // Update is called once per frame
@@ -24,13 +23,15 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void UpdateScore()
+    public void UpdateScore(float addScore)
     {
-
+        score += addScore;
+        scoreText.text = "Score :" + score;
     }
 
-    public void UpdateLives()
+    public void UpdateLives(float decreaseLife)
     {
-
+        lives += decreaseLife;
+        livesText.text = "Lives :" + lives;
     }
 }
