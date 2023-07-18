@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    public GameManager gameManager;
+    private GameManager gameManager;
     public float animalPoint;
 
     // Start is called before the first frame update
@@ -23,11 +23,19 @@ public class DetectCollision : MonoBehaviour
     //this function is already provided by MonoBehavior class
     private void OnTriggerEnter(Collider other)
     {
-        gameManager.UpdateScore(animalPoint);
+
+        if (other.CompareTag("Animal"))
+        {
+            //Destroy(gameObject);
+            //Destroy(other.gameObject);
+        }
+
+        //gameManager.UpdateScore(animalPoint);
+
 
         //destroy the game object when collided
-        Destroy(gameObject); 
-        //destroy other game objects that collided on the game object
-        Destroy(other.gameObject); 
+        //            Destroy(gameObject); 
+        ////destroy other game objects that collided on the game object
+        //Destroy(other.gameObject); 
     }
 }
