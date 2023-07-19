@@ -5,9 +5,9 @@
       <File FileName="Assets/Scripts/SpawnManager.cs" Line="53" Column="4" />
       <File FileName="Assets/Scripts/MoveForward.cs" Line="5" Column="41" />
       <File FileName="Assets/Scripts/DestroyOutOfBounds.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="13" Column="53" />
-      <File FileName="Assets/Scripts/DetectCollision.cs" Line="31" Column="36" />
-      <File FileName="Assets/Scripts/AnimalHunger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="26" Column="40" />
+      <File FileName="Assets/Scripts/DetectCollision.cs" Line="30" Column="31" />
+      <File FileName="Assets/Scripts/AnimalHunger.cs" Line="32" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
